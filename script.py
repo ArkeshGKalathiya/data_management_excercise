@@ -169,7 +169,7 @@ class ConflictMap:
 
         targetMap = self.conflictOccurrenceMap[key]
         if targetMap.get(value) is None:
-            targetMap[value] = 1
+            targetMap[value] = 0
         targetMap[value] = targetMap[value] + 1
         
 
