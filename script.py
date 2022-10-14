@@ -19,69 +19,123 @@
 # 3. There is conflict in Product ID and Product Name (i.e. same product id contains multiple names, we have saved rows with first occurrence of the name)
 #
 #       FUR-CH-10001146
-#       ["Global Value Mid-Back Manager's Chair, Gray", 'Global Task Chair, Black']
+#           Global Value Mid-Back Manager's Chair, Gray : 7
+#           Global Task Chair, Black : 7
 #       OFF-PA-10001970
-#       ['Xerox 1881', 'Xerox 1908']
+#           Xerox 1881 : 8
+#           Xerox 1908 : 8
 #       OFF-ST-10001228
-#       ['Fellowes Personal Hanging Folder Files, Navy', 'Personal File Boxes with Fold-Down Carry Handle']
+#           Fellowes Personal Hanging Folder Files, Navy : 4
+#           Personal File Boxes with Fold-Down Carry Handle : 4
 #       TEC-AC-10003832
-#       ['Logitech\xa0P710e Mobile Speakerphone', 'Imation\xa016GB Mini TravelDrive USB 2.0\xa0Flash Drive']
+#           Logitech P710e Mobile Speakerphone : 8
+#           Imation 16GB Mini TravelDrive USB 2.0 Flash Drive : 8
 #       OFF-PA-10002377
-#       ['Xerox 1916', 'Adams Telephone Message Book W/Dividers/Space For Phone Numbers, 5 1/4"X8 1/2", 200/Messages']
+#           Xerox 1916 : 9
+#           Adams Telephone Message Book W/Dividers/Space For Phone Numbers, 5 1/4"X8 1/2", 200/Messages : 9
 #       TEC-PH-10001530
-#       ['Cisco Unified IP Phone 7945G VoIP phone', 'Plantronics Voyager Pro Legend']
+#           Cisco Unified IP Phone 7945G VoIP phone : 7
+#           Plantronics Voyager Pro Legend : 7
 #       OFF-AP-10000576
-#       ['Belkin 7 Outlet SurgeMaster II', "Belkin 325VA UPS Surge Protector, 6'"]
+#           Belkin 7 Outlet SurgeMaster II : 5
+#           Belkin 325VA UPS Surge Protector, 6' : 5
 #       OFF-BI-10004632
-#       ['Ibico Hi-Tech Manual Binding System', 'GBC Binding covers']
-#       FUR-FU-10004091
-#       ['Howard Miller 13" Diameter Goldtone Round Wall Clock', 'Eldon 200 Class Desk Accessories, Black']
-#       TEC-AC-10002049
-#       ['Logitech G19 Programmable Gaming Keyboard', 'Plantronics Savi W720 Multi-Device Wireless Headset System']
-#       OFF-PA-10000357
-#       ['White Dual Perf Computer Printout Paper, 2700 Sheets, 1 Part, Heavyweight, 20 lbs., 14 7/8 x 11', 'Xerox 1888']
-#       FUR-FU-10001473
-#       ['DAX Wood Document Frame', 'Eldon Executive Woodline II Desk Accessories, Mahogany']
-#       OFF-PA-10000477
-#       ['Xerox 1952', 'Xerox 22']
-#       OFF-PA-10000659
-#       ['Adams Phone Message Book, Professional, 400 Message Capacity, 5 3/6” x 11”', 'TOPS Carbonless Receipt Book, Four 2-3/4 x 7-1/4 Money Receipts per Page']
 #       FUR-FU-10004848
-#       ['Howard Miller 13-3/4" Diameter Brushed Chrome Round Wall Clock', 'DAX Solid Wood Frames']
-#       FUR-BO-10002213
-#       ['DMI Eclipse Executive Suite Bookcases', 'Sauder Forest Hills Library, Woodland Oak Finish']
-#       TEC-PH-10002310
-#       ['Panasonic KX T7731-B Digital phone', 'Plantronics Calisto P620-M USB Wireless Speakerphone System']
-#       FUR-FU-10004270
-#       ['Eldon Image Series Desk Accessories, Burgundy', 'Executive Impressions 13" Clairmont Wall Clock']
-#       TEC-PH-10004531
-#       ['OtterBox Commuter Series Case - iPhone 5 & 5s', 'AT&T CL2909']
+#           Howard Miller 13-3/4" Diameter Brushed Chrome Round Wall Clock : 10
+#           DAX Solid Wood Frames : 4
+#       FUR-CH-10001146
+#           Global Value Mid-Back Manager's Chair, Gray : 11
+#           Global Task Chair, Black : 6
 #       OFF-BI-10004654
-#       ['Avery Binding System Hidden Tab Executive Style Index Sets', 'VariCap6 Expandable Binder']
-#       TEC-PH-10002200
-#       ['Samsung Galaxy Note 2', 'Aastra 6757i CT Wireless VoIP phone']
-#       OFF-ST-10004950
-#       ['Acco Perma 3000 Stacking Storage Drawers', 'Tenex Personal Filing Tote With Secure Closure Lid, Black/Frost']
-#       TEC-MA-10001148
-#       ['Swingline SM12-08 MicroCut Jam Free Shredder', 'Okidata MB491 Multifunction Printer']
+#           Avery Binding System Hidden Tab Executive Style Index Sets : 9
+#           VariCap6 Expandable Binder : 4
+#       OFF-PA-10002377
+#           Xerox 1916 : 8
+#           Adams Telephone Message Book W/Dividers/Space For Phone Numbers, 5 1/4"X8 1/2", 200/Messages : 8
 #       OFF-AR-10001149
-#       ['Sanford Colorific Colored Pencils, 12/Box', 'Avery Hi-Liter Comfort Grip Fluorescent Highlighter, Yellow Ink']
-#       TEC-AC-10002550
-#       ['Maxell 4.7GB DVD-RW 3/Pack', 'Memorex 25GB 6X Branded Blu-Ray Recordable Disc, 30/Pack']
-#       OFF-PA-10002195
-#       ['RSVP Cards & Envelopes, Blank White, 8-1/2" X 11", 24 Cards/25 Envelopes/Set', 'Xerox 1966']
+#           Sanford Colorific Colored Pencils, 12/Box : 6
+#           Avery Hi-Liter Comfort Grip Fluorescent Highlighter, Yellow Ink : 3
+#       OFF-PA-10000659
+#           Adams Phone Message Book, Professional, 400 Message Capacity, 5 3/6” x 11” : 4
+#           TOPS Carbonless Receipt Book, Four 2-3/4 x 7-1/4 Money Receipts per Page : 5
+#       TEC-MA-10001148
+#           Swingline SM12-08 MicroCut Jam Free Shredder : 4
+#           Okidata MB491 Multifunction Printer : 3
 #       FUR-FU-10004017
-#       ['Tenex Contemporary Contur Chairmats for Low and Medium Pile Carpet, Computer, 39" x 49"', 'Executive Impressions 13" Chairman Wall Clock']
-#       OFF-PA-10001166
-#       ['Xerox 2', 'Xerox 1932']
+#           Tenex Contemporary Contur Chairmats for Low and Medium Pile Carpet, Computer, 39" x 49" : 5
+#           Executive Impressions 13" Chairman Wall Clock : 4
+#       TEC-AC-10003832
+#           Logitech P710e Mobile Speakerphone : 10
+#           Imation 16GB Mini TravelDrive USB 2.0 Flash Drive : 10
+#       OFF-ST-10001228
+#           Fellowes Personal Hanging Folder Files, Navy : 5
+#           Personal File Boxes with Fold-Down Carry Handle : 6
+#       FUR-FU-10004091
+#           Howard Miller 13" Diameter Goldtone Round Wall Clock : 7
+#           Eldon 200 Class Desk Accessories, Black : 3
+#       OFF-PA-10001970
+#           Xerox 1881 : 13
+#           Xerox 1908 : 8
 #       FUR-FU-10004864
-#       ['Howard Miller 14-1/2" Diameter Chrome Round Wall Clock', 'Eldon 500 Class Desk Accessories']
-#       OFF-PA-10003022
-#       ['Xerox 1992', 'Standard Line “While You Were Out” Hardbound Telephone Message Book']
+#           Howard Miller 14-1/2" Diameter Chrome Round Wall Clock : 8
+#           Eldon 500 Class Desk Accessories : 7
+#       OFF-PA-10000357
+#           White Dual Perf Computer Printout Paper, 2700 Sheets, 1 Part, Heavyweight, 20 lbs., 14 7/8 x 11 : 7
+#           Xerox 1888 : 7
+#       OFF-BI-10004632
+#           Ibico Hi-Tech Manual Binding System : 12
+#           GBC Binding covers : 4
+#       TEC-PH-10001530
+#           Cisco Unified IP Phone 7945G VoIP phone : 7
+#           Plantronics Voyager Pro Legend : 4
+#       OFF-AP-10000576
+#           Belkin 7 Outlet SurgeMaster II : 4
+#           Belkin 325VA UPS Surge Protector, 6' : 5
 #       TEC-PH-10001795
-#       ['ClearOne CHATAttach 160 -\xa0speaker phone', 'RCA H5401RE1 DECT 6.0 4-Line Cordless Handset With Caller ID/Call Waiting']
+#           ClearOne CHATAttach 160 - speaker phone : 5
+#           RCA H5401RE1 DECT 6.0 4-Line Cordless Handset With Caller ID/Call Waiting : 2
+#       TEC-AC-10002049
+#           Logitech G19 Programmable Gaming Keyboard : 9
+#           Plantronics Savi W720 Multi-Device Wireless Headset System : 8
+#       TEC-PH-10004531
+#           OtterBox Commuter Series Case - iPhone 5 & 5s : 5
+#           AT&T CL2909 : 4
+#       OFF-PA-10002195
+#           RSVP Cards & Envelopes, Blank White, 8-1/2" X 11", 24 Cards/25 Envelopes/Set : 7
+#           Xerox 1966 : 7
+#       OFF-PA-10001166
+#           Xerox 2 : 10
+#           Xerox 1932 : 2
+#       TEC-PH-10002200
+#           Samsung Galaxy Note 2 : 3
+#           Aastra 6757i CT Wireless VoIP phone : 7
 #       OFF-BI-10002026
-#       ['Avery Arch Ring Binders', 'Ibico Recycled Linen-Style Covers']
+#           Avery Arch Ring Binders : 11
+#           Ibico Recycled Linen-Style Covers : 5
+#       TEC-PH-10002310
+#           Panasonic KX T7731-B Digital phone : 4
+#           Plantronics Calisto P620-M USB Wireless Speakerphone System : 5
+#       FUR-FU-10001473
+#           DAX Wood Document Frame : 10
+#           Eldon Executive Woodline II Desk Accessories, Mahogany : 6
+#       FUR-FU-10004270
+#           Eldon Image Series Desk Accessories, Burgundy : 9
+#           Executive Impressions 13" Clairmont Wall Clock : 9
+#       OFF-ST-10004950
+#           Acco Perma 3000 Stacking Storage Drawers : 7
+#           Tenex Personal Filing Tote With Secure Closure Lid, Black/Frost : 6
+#       OFF-PA-10000477
+#           Xerox 1952 : 5
+#           Xerox 22 : 4
+#       FUR-BO-10002213
+#           DMI Eclipse Executive Suite Bookcases : 7
+#           Sauder Forest Hills Library, Woodland Oak Finish : 5
+#       TEC-AC-10002550
+#           Maxell 4.7GB DVD-RW 3/Pack : 5
+#           Memorex 25GB 6X Branded Blu-Ray Recordable Disc, 30/Pack : 5
+#       OFF-PA-10003022
+#           Xerox 1992 : 5
+#           Standard Line “While You Were Out” Hardbound Telephone Message Book : 3
 #
 #
 #
@@ -108,28 +162,30 @@ class ConflictMap:
 
     def __init__(self):
         self.conflictMap = {}
-        self.conflictArrayMap = {}
+        self.conflictOccurrenceMap = {}
 
     def injectConflict(self, key, value):
-        if self.conflictArrayMap.get(key) is None:
-            self.conflictArrayMap[key] = []
+        if self.conflictOccurrenceMap.get(key) is None:
+            self.conflictOccurrenceMap[key] = {}
 
-        if value not in self.conflictArrayMap[key]:
-            self.conflictArrayMap[key].append(value)
+        targetMap = self.conflictOccurrenceMap[key]
+        if targetMap.get(value) is None:
+            targetMap[value] = 1
+        targetMap[value] = targetMap[value] + 1
+        
 
     def inject(self, key, value):
         existing = self.conflictMap.get(key)
-        if (existing is not None and existing != value):
-            self.injectConflict(key, existing)
-            self.injectConflict(key, value)
+        self.injectConflict(key, value)
         self.conflictMap[key] = value
 
     def describeConflicts(self):
-        if len(self.conflictArrayMap) == 0:
-            return False
-        for key in self.conflictArrayMap:
-            print(key)
-            print(self.conflictArrayMap[key])
+        for key in self.conflictOccurrenceMap:
+            if(len(self.conflictOccurrenceMap[key]) > 1):
+                print(key)
+                occurrenceMap = self.conflictOccurrenceMap[key]
+                for repeatKey in occurrenceMap:
+                    print(f"    {repeatKey} : {occurrenceMap[repeatKey]}")
         return True
 
 
@@ -373,21 +429,58 @@ def loadOrdersAndShipments(segmentMap, regionalMap, customerMap):
         cursor.execute(
             'insert into Orders'
             ' (OrderCode,OrderDate,CustomerId,ShipmentId,RegionId,SegmentId)'
-            ' values(%s,%s,%s,%s,%s,%s)',
-            (orderCode,orderDate,customerId,shipmentId,regionId,segmentId)
+            ' values(%s,%s,%s,%s,%s,%s)'
+            ' on duplicate key update OrderCode=OrderCode',
+            (orderCode, orderDate, customerId, shipmentId, regionId, segmentId)
         )
+        orderId = cursor.lastrowid
+        if (orderId > 0):
+            orderMap[orderCode] = orderId
 
-        # print(parseDate(row['Order Date']).isoformat())
+    connection.commit()
+    cursor.close()
+    return orderMap
 
 
-# checkConflict('Customer ID',['Segment'])
-    # OUTCOME : no conflict
+def loadOrderItems(orderMap, productCodeMap):
+    orders = getSheet('Orders')
+    cursor = connection.cursor()
+    for index, row in orders.iterrows():
+        orderCode = row['Order ID']
+        orderId = orderMap[orderCode]
+        productCode = row['Product ID']
+        productId = productCodeMap[productCode]
+        quantity = row['Quantity']
+        discount = row['Discount']
+        profit = row['Profit']
+        sales = row['Sales']
+        cursor.execute(
+            'insert into OrderedItems'
+            ' (OrderId,ProductId,Quantity,Discount,Sales,Profit)'
+            ' values(%s,%s,%s,%s,%s,%s)',
+            (orderId, productId, quantity, discount, sales, profit)
+        )
+    connection.commit()
+    cursor.close()
+
+
+def updateReturns():
+    returns = getSheet('Returns')
+    returnedRows = returns[returns['Returned'] == "Yes"]
+    orderIds = returnedRows['Order ID'].unique()
+    cursor = connection.cursor()
+    for orderId in orderIds:
+        cursor.execute('UPDATE Orders SET Returned=1 WHERE OrderCode=%s',(orderId,))
+    connection.commit()
+    cursor.close()
+
 
 
 bootstrapDatabase()
 
 
-# CREATING REGION MAP
+
+
 regionManagerMap = loadManagers()
 regionMap = loadRegions(regionManagerMap)
 segmentMap = loadSegments()
@@ -398,9 +491,13 @@ productCodeMap = loadProducts(
     subCategoryMap=subCategoryMap,
 )
 customerMap = loadCustomers()
-loadOrdersAndShipments(
+orderMap = loadOrdersAndShipments(
     segmentMap=segmentMap,
     regionalMap=regionMap,
     customerMap=customerMap,
 )
-# %%
+loadOrderItems(
+    orderMap=orderMap,
+    productCodeMap=productCodeMap,
+)
+updateReturns()

@@ -95,12 +95,12 @@ DROP TABLE IF EXISTS `OrderedItems`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `OrderedItems` (
-  `OrderedItemId` int NOT NULL,
+  `OrderedItemId` int NOT NULL AUTO_INCREMENT,
   `OrderId` int NOT NULL,
   `ProductId` int NOT NULL,
   `Quantity` int NOT NULL,
   `Discount` float NOT NULL,
-  `Sales` int NOT NULL,
+  `Sales` float NOT NULL,
   `Profit` float NOT NULL,
   PRIMARY KEY (`OrderedItemId`),
   KEY `OrderId` (`OrderId`),
